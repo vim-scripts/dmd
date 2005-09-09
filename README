@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1345
+
+It's a quite poor ftplugin,but it work.
+
+I permiss I will make a d language ftplugin as good as C/C++ have.
+However, This is first step.
+
+feathers:
+   syntax highlight, it's official version.
+   syntax fold, quick and dirty way.
+   include search, set environment veriable DMD to dmd home, vim can search
+all module under $DMD/import for symbol under cursor.(normal [i, [I ). gf key-sequeue open the module under cursor, too
+   ctags support, there is a modified ctags support C/C++/D language.
+
+todo:
+   make comment works well.
+   redesign syntax fold.
+   
